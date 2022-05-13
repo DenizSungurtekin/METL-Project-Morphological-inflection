@@ -1,0 +1,3 @@
+./baseline.py --task=1 --language=finnish --path=./../data/ > result
+
+python2 evalm.py --golden finnish-task1-dev --guesses result > evaluation
